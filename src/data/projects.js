@@ -11,8 +11,8 @@ export const projects = [
     ],
     github: 'https://github.com/azim2023/WeatherApp',
     images: [
-      '/WeatherApp1.png',
-      '/WeatherApp2.png',
+      'https://azim2023.github.io/azim-portfolio/WeatherApp1.png',
+      'https://azim2023.github.io/azim-portfolio/WeatherApp2.png',
     ],
   },
   {
@@ -27,8 +27,8 @@ export const projects = [
     ],
     github: 'https://github.com/azim2023/TicTacToe',
     images: [
-      '/Tic-Toc-Toe1.png',
-      '/Tic-Toc-Toe2.png',
+      'https://azim2023.github.io/azim-portfolio/Tic-Toc-Toe1.png',
+      'https://azim2023.github.io/azim-portfolio/Tic-Toc-Toe2.png',
     ],
   },
   {
@@ -44,11 +44,11 @@ export const projects = [
     ],
     github: 'https://github.com/azim2023/BookStore',
     images: [
-      '/BookStore1.png',
-      '/BookStore2.png',
-      '/BookStore3.png',
-      '/BookStore4.png',
-      '/BookStore5.png',
+      'https://azim2023.github.io/azim-portfolio/BookStore1.png',
+      'https://azim2023.github.io/azim-portfolio/BookStore2.png',
+      'https://azim2023.github.io/azim-portfolio/BookStore3.png',
+      'https://azim2023.github.io/azim-portfolio/BookStore4.png',
+      'https://azim2023.github.io/azim-portfolio/BookStore5.png',
     ],
   },
   {
@@ -63,8 +63,8 @@ export const projects = [
   ],
   github: 'https://github.com/azim2023/ToDoList',
   images: [
-    '/ToDoList1.png',
-    '/ToDoList2.png', 
+    'https://azim2023.github.io/azim-portfolio/ToDoList1.png',
+    'https://azim2023.github.io/azim-portfolio/ToDoList2.png', 
   ],
 },
 ];

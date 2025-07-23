@@ -14,14 +14,14 @@ export const contactMethods = [
   {
     id: 'email',
     label: 'E-post',
-    qrImage: '/qr-mail.png',
+    qrImage: 'https://azim2023.github.io/azim-portfolio/qr-mail.png',
     link: `mailto:${contactInfo.email}`,
     linkText: contactInfo.email,
   },
   {
     id: 'phone',
     label: 'Telefon',
-    qrImage: '/qr-phone.png',
+    qrImage: 'https://azim2023.github.io/azim-portfolio/qr-phone.png',
     link: `tel:${contactInfo.phone}`,
     linkText: contactInfo.phone,
     className: 'whitespace-nowrap', 
@@ -29,7 +29,7 @@ export const contactMethods = [
   {
     id: 'linkedin',
     label: 'LinkedIn',
-    qrImage: '/qr-linkedin.png',
+    qrImage: 'https://azim2023.github.io/azim-portfolio/qr-linkedin.png',
     link: contactInfo.linkedin,
     linkText: 'Besök profil',
     isExternal: true,

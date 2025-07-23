@@ -52,7 +52,7 @@ export default function Hero() {
 
       <motion.div
         className="absolute inset-0 bg-cover bg-center z-0"
-        style={{ backgroundImage: "url('/header.JPEG')", y: backgroundY }}
+        style={{ backgroundImage: "url('https://azim2023.github.io/azim-portfolio/header.JPEG')", y: backgroundY }}
       />
       
 

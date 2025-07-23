@@ -72,7 +72,7 @@ export default function Hero() {
           className="text-4xl sm:text-6xl font-extrabold mb-4 text-slate-800 text-white text-opacity-80 cursor-default"
           style={{ y: textY, opacity: textOpacity }}
         >
-          Hej! Jag är Azim
+          Välkommen Till Min Portfolio Sida
         </motion.h1>
 
         <motion.p
@@ -98,7 +98,7 @@ export default function Hero() {
               href="#projects"
               className="inline-flex items-center px-7 py-3 rounded-2xl border border-white/30 bg-gradient-to-r from-brand via-brand/90 to-brand-dark text-white font-medium shadow-md hover:shadow-lg hover:scale-[1.03] transition-all duration-300"
             >
-              Utforska mitt arbete
+              Utforska Mitt Arbete
             </a>
           </motion.div>
 
@@ -113,7 +113,7 @@ export default function Hero() {
               href="#contact"
               className="inline-flex items-center px-7 py-3 rounded-2xl border border-white/30 bg-gradient-to-r from-brand via-brand/90 to-brand-dark text-white font-medium shadow-md hover:shadow-lg hover:scale-[1.03] transition-all duration-300"
             >
-              Kontakta mig
+              Kontakta Mig
             </a>
           </motion.div>
         </motion.div>

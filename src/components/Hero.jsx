@@ -72,7 +72,7 @@ export default function Hero() {
           className="text-4xl sm:text-6xl font-extrabold mb-4 text-slate-800 text-white text-opacity-80 cursor-default"
           style={{ y: textY, opacity: textOpacity }}
         >
-          Välkommen Till Min Portfolio Sida
+          Välkommen!
         </motion.h1>
 
         <motion.p

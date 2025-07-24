@@ -29,7 +29,7 @@ export default function Skills() {
           <SkillGroup title="Programmeringsspråk" items={skills.languages} />
           <SkillGroup title="Webb" items={skills.web} />
           <SkillGroup title="Metoder" items={skills.methodologies} />
-          <SkillGroup title="Verktyg" items={skills.tools} />
+          {/*<SkillGroup title="Verktyg" items={skills.tools} />*/}
           <SkillGroup title="Övrigt" items={skills.other} />
         </div>
       </div>

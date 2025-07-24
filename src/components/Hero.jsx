@@ -96,7 +96,7 @@ export default function Hero() {
           >
             <a
               href="#projects"
-              className="inline-flex items-center px-7 py-3 rounded-2xl border border-white/30 bg-gradient-to-r from-brand via-brand/90 to-brand-dark text-white font-medium shadow-md hover:shadow-lg hover:scale-[1.03] transition-all duration-300"
+              className="inline-flex items-center px-7 py-3 rounded-2xl border border-blue-300/30 bg-blue-500/30 backdrop-blur-md text-white font-medium shadow-md hover:shadow-lg hover:scale-[1.03] transition-all duration-300"
             >
               Utforska Mitt Arbete
             </a>
@@ -111,7 +111,7 @@ export default function Hero() {
           >
             <a
               href="#contact"
-              className="inline-flex items-center px-7 py-3 rounded-2xl border border-white/30 bg-gradient-to-r from-brand via-brand/90 to-brand-dark text-white font-medium shadow-md hover:shadow-lg hover:scale-[1.03] transition-all duration-300"
+              className="inline-flex items-center px-7 py-3 rounded-2xl border border-blue-300/30 bg-blue-500/30 backdrop-blur-md text-white font-medium shadow-md hover:shadow-lg hover:scale-[1.03] transition-all duration-300"
             >
               Kontakta Mig
             </a>

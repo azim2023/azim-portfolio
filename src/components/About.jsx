@@ -38,7 +38,6 @@ export default function About() {
 
   const activeIndex = timelineData.findIndex(item => item.year === activeYear);
 
-  // Effekt för att uppdatera den horisontella indikatorns position
   useEffect(() => {
     const activeNavElement = yearNavRefs.current[activeIndex];
     if (activeNavElement) {
@@ -61,7 +60,7 @@ export default function About() {
 
     <section id="about" className="max-w-3xl mx-auto px-4 py-24 cursor-default scroll-mt-16">
       <div className="mb-12">
-        <h2 className="text-3xl font-bold mb-6 text-center">Min Resa</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center">Background</h2>
         <p className="mb-4 text-center">Från de första raderna kod till komplexa applikationer. Här är några av höjdpunkterna.</p>
       </div>
 

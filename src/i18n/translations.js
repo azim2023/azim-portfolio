@@ -123,6 +123,7 @@ export const translations = {
       intro: "Welcome to my digital portfolio.",
       button1: "Explore My Work",
       button2: "Contact Me",
+      button3: "Call Me"
     },
 
     about: {

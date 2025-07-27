@@ -75,7 +75,7 @@ export default function Navbar() {
               }} 
               className="w-full text-left text-lg py-2 font-semibold text-brand"
             >
-              Byt till {language === 'sv' ? 'Engelska' : 'Svenska'}
+              {language === 'sv' ? 'Change Language to Engelska' : 'Byt språket till Svenska'}
             </button>
           </li>
         </ul>

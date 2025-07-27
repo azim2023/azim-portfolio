@@ -7,9 +7,9 @@ export default function Contact() {
 
   const { t } = useLanguage();
   const contactMethods = t.contact?.contactMethods || [];
-  const contactTitle = t.contact?.title || "Kontakt";
-  const contactSubtitle = t.contact?.subtitle || "Hör av dig!";
-  const qrTitle = t.contact?.qrTitle || "Skanna en kod";
+  const contactTitle = t.contact?.title;
+  const contactSubtitle = t.contact?.subtitle;
+  const qrTitle = t.contact?.qrTitle;
 
   return (
     <section id="contact" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center cursor-default">

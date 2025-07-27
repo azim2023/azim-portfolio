@@ -13,11 +13,10 @@ export default function ContactCard({ method }) {
         <a 
           className={`underline hover:text-brand ${method.className || ''}`} 
           href={method.link}
-
           target={method.isExternal ? '_blank' : undefined}
           rel={method.isExternal ? 'noopener noreferrer' : undefined}
         >
-          {method.linkText}
+          {method.value} 
         </a>
       </div>
     </div>

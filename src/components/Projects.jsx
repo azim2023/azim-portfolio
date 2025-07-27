@@ -1,12 +1,15 @@
 // src/components/Projects.jsx
 
 import ProjectCard from './ProjectCard'
-import { projects } from '../data/projects'
+import { useLanguage } from '../context/LanguageContext';
 
 export default function Projects() {
+  const { t } = useLanguage();
+  const projects = t.projects.projectData || [];
+
   return (
     <section id="projects" className="w-full px-4 sm:px-6 lg:px-8 py-24">
-      <h2 className="text-3xl font-bold mb-12 text-center">Mina Projekt</h2>
+      <h2 className="text-3xl font-bold mb-12 text-center">{t.projects.title}</h2>
 
       {projects.length === 0 ? (
         <p className="text-center">Projekt kommer snart! 🔧</p>

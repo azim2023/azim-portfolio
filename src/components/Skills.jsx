@@ -1,6 +1,7 @@
 // src/components/Skills.jsx
 
 import { skills } from '../data/skills';
+import { useLanguage } from '../context/LanguageContext';
 
 function SkillGroup({ title, items }) {
   return (
@@ -21,16 +22,17 @@ function SkillGroup({ title, items }) {
 }
 
 export default function Skills() {
+  const { t } = useLanguage();
+
   return (
     <section id="skills" className="bg-[#f9fafb] py-24 px-4 cursor-default">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">Färdigheter</h2>
+        <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">{t.skills.title}</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <SkillGroup title="Programmeringsspråk" items={skills.languages} />
-          <SkillGroup title="Webb" items={skills.web} />
-          <SkillGroup title="Metoder" items={skills.methodologies} />
-          {/*<SkillGroup title="Verktyg" items={skills.tools} />*/}
-          <SkillGroup title="Övrigt" items={skills.other} />
+          <SkillGroup title={t.skills.languages} items={skills.languages} />
+          <SkillGroup title={t.skills.web} items={skills.web} />
+          <SkillGroup title={t.skills.methodologies} items={skills.methodologies} />
+          <SkillGroup title={t.skills.other} items={skills.other} />
         </div>
       </div>
     </section>

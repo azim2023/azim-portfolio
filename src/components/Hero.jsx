@@ -63,7 +63,7 @@ export default function Hero() {
         >
           {t.hero.intro}
         </motion.p>
-
+          
         <motion.div className="flex flex-wrap justify-center gap-4">
 
           <motion.a
@@ -141,6 +141,48 @@ export default function Hero() {
           </motion.a>
           
         </motion.div>
+
+        <motion.a
+            href= 'tel:+46729145021'
+            className="fixed z-10 bottom-8 left-4 md:left-8 flex items-center justify-center
+                   w-24 h-24 md:w-18 md:h-18 
+                   rounded-full border border-white/30 bg-green-500/50 backdrop-blur-md 
+                   text-white font-bold text-sm md:text-base shadow-lg
+                   transform -translate-y-1/2" 
+            style={{opacity: textOpacity }}
+            
+
+            initial={{ opacity: 0, y: 20 }}
+            animate={{
+              y: [0, -10, 0],
+              rotate: [0, 2, -2, 0],
+            }}
+            transition={{
+              duration: 0.6,
+              delay: 0.4,
+              y: {
+                duration: 3,
+                repeat: Infinity,
+                repeatType: "loop",
+                ease: "easeInOut",
+              },
+              rotate: {
+                duration: 4,
+                repeat: Infinity,
+                repeatType: "loop",
+                ease: "easeInOut",
+              }
+            }}
+
+            whileHover={{
+              y: -2,
+              scale: 1.1,
+              transition: { type: 'spring', stiffness: 300, damping: 10 }
+            }}
+          >
+            {t.hero.button3}
+          </motion.a>
+          
       </motion.div>
     </section>
   )

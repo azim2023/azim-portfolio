@@ -16,6 +16,7 @@ export const translations = {
       intro: "Välkommen till min digitala portfolio.",
       button1: "Utforska Mitt Arbete",
       button2: "Kontakta Mig",
+      button3: "Ring Mig"
     },
 
     about: {
@@ -79,7 +80,7 @@ export const translations = {
         },
         {
           id: 'Loading...',
-          title: 'More projects coming...',
+          title: 'More projects coming soon...',
           blurb: '',
           tech: [],
           role: '',

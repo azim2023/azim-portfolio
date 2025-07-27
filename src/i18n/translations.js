@@ -185,7 +185,7 @@ export const translations = {
         },
         {
           id: 'Loading...',
-          title: 'More projects coming...',
+          title: 'More projects coming soon...',
           blurb: '',
           tech: [],
           role: '',

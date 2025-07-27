@@ -12,7 +12,7 @@ export default function ProjectCard({ project }) {
   const { t } = useLanguage();
 
   return (
-    <div className="max-w-10xl mx-auto w-full bg-white/80 backdrop-blur-lg shadow-xl rounded-2xl p-10 mb-10 transition-transform duration-500 hover:scale-[1.01] border border-slate-200">
+    <div className="max-w-10xl mx-auto w-full bg-white/80 backdrop-blur-lg shadow-xl rounded-2xl p-10 mb-10 transition-transform duration-500 hover:scale-[1.01] border border-slate-200 hover:shadow-brand-glow">
       <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
 
         <div className="w-full md:flex-1 flex flex-col justify-between self-stretch">

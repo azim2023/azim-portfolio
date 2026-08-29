@@ -1,6 +1,6 @@
 // src/components/Projects.jsx
 
-import ProjectCard from './ProjectCard';
+import ProjectCard from './projectCard';
 import { useLanguage } from '../context/LanguageContext';
 import { useState, useEffect } from 'react';
 

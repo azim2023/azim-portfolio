@@ -26,7 +26,7 @@ export const translations = {
         { year: 2019, title: 'Gymnasiestudier påbörjas', description: 'Påbörjade teknikprogrammet med IT-inriktning vid Ållebergsgymnasiet i Falköping.' },
         { year: 2022, title: 'Universitetsstudier påbörjas', description: 'Tog examen från gymnasiet och påbörjade min resa mot en kandidatexamen i mjukvaruutveckling och mobila plattformar vid Jönköpings Universitet.' },
         { year: 2024, title: 'Arbetslivserfarenhet på Airmee', description: 'Arbetade deltid som orderplockare på Airmee, där jag hanterade beställningar effektivt och bidrog till att optimera lagerflödet.' },
-        { year: 2025, title: 'Utexaminerad & Sommarjobb', description: 'Blev utexaminerad från Jönköping Universitet, påbörjade arbeta som sommarjobbare på Husqvarna Group.' },
+        { year: 2025, title: 'Examen, praktik och sommarjobb på Husqvarna Group', description: 'Tog examen från Jönköping University och arbetade därefter som sommaranställd på Husqvarna Group. Genomförde även en sju veckor lång praktikperiod där jag utvecklade en intern mobilapplikation som används för registrering och hantering av produktrelaterade händelser.',},
         { year: 'Status', title: 'Ready to deploy...', description: '' },
       ],
     },
@@ -42,6 +42,39 @@ export const translations = {
     projects: {
       title: "Mina Projekt",
       projectData: [
+        {
+          id: 'azim-app',
+          title: 'AZIM app (Flutter)',
+          blurb:
+            'Intern Flutter-app för att registrera och spåra produktrelaterade händelser (scan + bilder) med spårbarhet. Entra ID SSO med RBAC samt TypeScript/MSSQL-backend som automatiserar SharePoint-dokumentation via Microsoft Graph, vilket ersatte manuell Excel-registrering av händelser.',
+          tech: [
+            'Flutter', 'Dart',
+            'TypeScript', 'REST API',
+            'Microsoft SQL Server',
+            'Microsoft Entra ID', 'RBAC',
+            'Azure App Registrations',
+            'Microsoft Graph API', 'SharePoint'
+          ],
+          role: 'Full-stack Developer',
+          github: '',
+          images: [
+            'https://azim2023.github.io/azim-portfolio/husq-login.png',
+            'https://azim2023.github.io/azim-portfolio/husq-home.png',
+            'https://azim2023.github.io/azim-portfolio/husq-report1.png',
+            'https://azim2023.github.io/azim-portfolio/husq-report2.png',
+            'https://azim2023.github.io/azim-portfolio/husq-management.png',
+            'https://azim2023.github.io/azim-portfolio/husq-histories.png'
+          ],
+        },
+        {
+          id: 'bookstore-ios-app',
+          title: 'BookStore app (iOS)',
+          blurb: 'En iOS-app för att utforska och spara böcker från ett externt API, med användarhantering och favoriter kopplat till Firebase.',
+          tech: ['Swift', 'SwiftUI', 'REST API', 'Firestore'],
+          role: 'iOS-utvecklare (API & Firebase Integration)',
+          github: 'https://github.com/azim2023/BookStore',
+          images: ['https://azim2023.github.io/azim-portfolio/BookStore1.png', 'https://azim2023.github.io/azim-portfolio/BookStore2.png', 'https://azim2023.github.io/azim-portfolio/BookStore3.png', 'https://azim2023.github.io/azim-portfolio/BookStore4.png', 'https://azim2023.github.io/azim-portfolio/BookStore5.png'],
+        },
         {
           id: 'ios-weather-app',
           title: 'Väderappen (iOS)',
@@ -59,15 +92,6 @@ export const translations = {
           role: 'Android-utvecklare (Studentprojekt)',
           github: 'https://github.com/azim2023/TicTacToe',
           images: ['https://azim2023.github.io/azim-portfolio/Tic-Toc-Toe1.png', 'https://azim2023.github.io/azim-portfolio/Tic-Toc-Toe2.png'],
-        },
-        {
-          id: 'bookstore-ios-app',
-          title: 'BookStore app (iOS)',
-          blurb: 'En iOS-app för att utforska och spara böcker från ett externt API, med användarhantering och favoriter kopplat till Firebase.',
-          tech: ['Swift', 'SwiftUI', 'REST API', 'Firestore'],
-          role: 'iOS-utvecklare (API & Firebase Integration)',
-          github: 'https://github.com/azim2023/BookStore',
-          images: ['https://azim2023.github.io/azim-portfolio/BookStore1.png', 'https://azim2023.github.io/azim-portfolio/BookStore2.png', 'https://azim2023.github.io/azim-portfolio/BookStore3.png', 'https://azim2023.github.io/azim-portfolio/BookStore4.png', 'https://azim2023.github.io/azim-portfolio/BookStore5.png'],
         },
         {
           id: 'ios-todo-app',
@@ -105,7 +129,7 @@ export const translations = {
       demo: "Live Demo"
     },
     footer: {
-      builtWith: "Byggd med ♥"
+      builtWith: ""
     },
   },
 
@@ -133,8 +157,8 @@ export const translations = {
         { year: 2019, title: 'High School Begins', description: 'Started the Technology Program with an IT focus at Ållebergsgymnasiet in Falköping.' },
         { year: 2022, title: 'University Studies Begin', description: 'Graduated from high school and began my journey towards a Bachelor\'s degree in Software Engineering and Mobile Platforms at Jönköping University.' },
         { year: 2024, title: 'Work Experience at Airmee', description: 'Worked part-time as an order picker at Airmee, where I handled orders efficiently and contributed to optimizing warehouse flow.' },
-        { year: 2025, title: 'Graduation & Summer Job', description: 'Graduated from Jönköping University, started a summer job at Husqvarna Group.' },
-        { year: 'Status', title: 'Ready to deploy...', description: '' },
+        { year: 2025, title: 'Graduation, Internship & Summer Position at Husqvarna Group', description: 'Graduated from Jönköping University and continued as a summer employee at Husqvarna Group. Completed a seven-week internship where I developed an internal mobile application used for registering and managing product-related events.' },
+        { year: 2026, title: "University Studies, M.Sc. level", description: "Started my journey towards a Master\'s degree in Software Engineering and Management at the University of Gothenburg" },
       ],
     },
 
@@ -149,6 +173,39 @@ export const translations = {
     projects: {
       title: "My Projects",
       projectData: [
+        {
+          id: 'azim-app',
+          title: 'AZIM App (Flutter)',
+          blurb:
+            'Internal Flutter app for logging and tracking product-related events (scan + photos) with full traceability. Entra ID SSO with RBAC, plus a TypeScript/MSSQL backend that automates SharePoint documentation via Microsoft Graph, replacing manual Excel-based event logging.',
+          tech: [
+            'Flutter', 'Dart',
+            'TypeScript', 'REST API',
+            'Microsoft SQL Server',
+            'Microsoft Entra ID', 'RBAC',
+            'Azure App Registrations',
+            'Microsoft Graph API', 'SharePoint'
+          ],
+          role: 'Full-stack Developer',
+          github: '',
+          images: [
+            'https://azim2023.github.io/azim-portfolio/husq-login.png',
+            'https://azim2023.github.io/azim-portfolio/husq-home.png',
+            'https://azim2023.github.io/azim-portfolio/husq-report1.png',
+            'https://azim2023.github.io/azim-portfolio/husq-report2.png',
+            'https://azim2023.github.io/azim-portfolio/husq-management.png',
+            'https://azim2023.github.io/azim-portfolio/husq-histories.png'
+          ],
+        },
+        {
+          id: 'bookstore-ios-app',
+          title: 'BookStore app (iOS)',
+          blurb: 'An iOS app to explore and save books from an external API, with user management and favorites linked to Firebase.',
+          tech: ['Swift', 'SwiftUI', 'REST API', 'Firestore'],
+          role: 'iOS Developer (API & Firebase Integration)',
+          github: 'https://github.com/azim2023/BookStore',
+          images: ['https://azim2023.github.io/azim-portfolio/BookStore1.png', 'https://azim2023.github.io/azim-portfolio/BookStore2.png', 'https://azim2023.github.io/azim-portfolio/BookStore3.png', 'https://azim2023.github.io/azim-portfolio/BookStore4.png', 'https://azim2023.github.io/azim-portfolio/BookStore5.png'],
+        },
         {
           id: 'ios-weather-app',
           title: 'Weather App (iOS)',
@@ -167,15 +224,7 @@ export const translations = {
           github: 'https://github.com/azim2023/TicTacToe',
           images: ['https://azim2023.github.io/azim-portfolio/Tic-Toc-Toe1.png', 'https://azim2023.github.io/azim-portfolio/Tic-Toc-Toe2.png'],
         },
-        {
-          id: 'bookstore-ios-app',
-          title: 'BookStore app (iOS)',
-          blurb: 'An iOS app to explore and save books from an external API, with user management and favorites linked to Firebase.',
-          tech: ['Swift', 'SwiftUI', 'REST API', 'Firestore'],
-          role: 'iOS Developer (API & Firebase Integration)',
-          github: 'https://github.com/azim2023/BookStore',
-          images: ['https://azim2023.github.io/azim-portfolio/BookStore1.png', 'https://azim2023.github.io/azim-portfolio/BookStore2.png', 'https://azim2023.github.io/azim-portfolio/BookStore3.png', 'https://azim2023.github.io/azim-portfolio/BookStore4.png', 'https://azim2023.github.io/azim-portfolio/BookStore5.png'],
-        },
+
         {
           id: 'ios-todo-app',
           title: 'To Do list app (iOS)',
@@ -201,7 +250,7 @@ export const translations = {
       title: "Contact",
       subtitle: "Want to get in touch? Feel free to reach out using the contact details below.",
       contactMethods: [
-        { id: 'email', label: 'Email', value: 'hoaz22yr@student.ju.se', link: 'mailto:hoaz22yr@student.ju.se', qrImage: 'https://azim2023.github.io/azim-portfolio/qr-mail.png' },
+        { id: 'email', label: 'Email', value: 'goshoseaz@student.gu.se', link: 'mailto:goshoseaz@student.gu.se', qrImage: 'https://azim2023.github.io/azim-portfolio/qr-mail.png' },
         { id: 'phone', label: 'Phone', value: '+46 72 914 5021', link: 'tel:+46729145021', qrImage: 'https://azim2023.github.io/azim-portfolio/qr-phone.png', className: 'whitespace-nowrap' },
         { id: 'linkedin', label: 'LinkedIn', value: 'Visit Profile', link: 'https://www.linkedin.com/in/azim-hoseini-2a7b8a225', qrImage: 'https://azim2023.github.io/azim-portfolio/qr-linkedin.png', isExternal: true }
       ]
@@ -212,7 +261,7 @@ export const translations = {
       demo: "Live Demo"
     },
     footer: {
-      builtWith: "Built with ♥"
+      builtWith: ""
     },
   }
 };

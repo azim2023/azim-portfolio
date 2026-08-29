@@ -26,8 +26,8 @@ export const translations = {
         { year: 2019, title: 'Gymnasiestudier påbörjas', description: 'Påbörjade teknikprogrammet med IT-inriktning vid Ållebergsgymnasiet i Falköping.' },
         { year: 2022, title: 'Universitetsstudier påbörjas', description: 'Tog examen från gymnasiet och påbörjade min resa mot en kandidatexamen i mjukvaruutveckling och mobila plattformar vid Jönköpings Universitet.' },
         { year: 2024, title: 'Arbetslivserfarenhet på Airmee', description: 'Arbetade deltid som orderplockare på Airmee, där jag hanterade beställningar effektivt och bidrog till att optimera lagerflödet.' },
-        { year: 2025, title: 'Examen, praktik och sommarjobb på Husqvarna Group', description: 'Tog examen från Jönköping University och arbetade därefter som sommaranställd på Husqvarna Group. Genomförde även en sju veckor lång praktikperiod där jag utvecklade en intern mobilapplikation som används för registrering och hantering av produktrelaterade händelser.',},
-        { year: 'Status', title: 'Ready to deploy...', description: '' },
+        { year: 2025, title: 'Examen, praktik och sommarjobb på Husqvarna Group', description: 'Tog examen från Jönköping University och arbetade därefter som sommaranställd på Husqvarna Group. Genomförde även en sju veckor lång praktikperiod där jag utvecklade en intern mobilapplikation som används för registrering och hantering av produktrelaterade händelser.' },
+        { year: 2026, title: 'Universitetsstudier, masternivå', description: 'Påbörjade min resa mot en masterexamen i Software Engineering and Management vid Göteborgs universitet.' },
       ],
     },
 
@@ -118,7 +118,7 @@ export const translations = {
       title: "Kontakt",
       subtitle: "Vill du komma i kontakt med mig? Hör gärna av dig via kontaktuppgifterna nedan.",
       contactMethods: [
-        { id: 'email', label: 'E-post', value: 'hoaz22yr@student.ju.se', link: 'mailto:hoaz22yr@student.ju.se', qrImage: 'https://azim2023.github.io/azim-portfolio/qr-mail.png' },
+        { id: 'email', label: 'Email', value: 'goshoseaz@student.gu.se', link: 'mailto:goshoseaz@student.gu.se', qrImage: 'https://azim2023.github.io/azim-portfolio/qr-mail.png' },
         { id: 'phone', label: 'Telefon', value: '+46 72 914 5021', link: 'tel:+46729145021', qrImage: 'https://azim2023.github.io/azim-portfolio/qr-phone.png', className: 'whitespace-nowrap' },
         { id: 'linkedin', label: 'LinkedIn', value: 'Besök profil', link: 'https://www.linkedin.com/in/azim-hoseini-2a7b8a225', qrImage: 'https://azim2023.github.io/azim-portfolio/qr-linkedin.png', isExternal: true }
       ]

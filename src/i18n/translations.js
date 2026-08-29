@@ -13,7 +13,7 @@ export const translations = {
 
     hero: {
       welcome: "Välkommen!",
-      intro: "Välkommen till min digitala portfolio.",
+      //intro: "Välkommen till min digitala portfolio.",
       button1: "Utforska Mitt Arbete",
       button2: "Kontakta Mig",
       button3: "Ring Mig"
@@ -144,7 +144,7 @@ export const translations = {
 
     hero: {
       welcome: "Welcome!",
-      intro: "Welcome to my digital portfolio.",
+      //intro: "Welcome to my digital portfolio.",
       button1: "Explore My Work",
       button2: "Contact Me",
       button3: "Call Me"
